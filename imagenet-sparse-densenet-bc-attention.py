@@ -122,7 +122,7 @@ class Model(ModelDesc):
         return scale
     def _build_graph(self, input_vars):
         image, label = input_vars
-        #image = image / 128.0 - 1
+        
 
         
         
@@ -143,8 +143,7 @@ class Model(ModelDesc):
                     c = tf.contrib.layers.batch_norm(c, decay=0.9, scale=True, is_training = get_current_tower_context().is_training, updates_collections=None, reuse=None)
                 #c = tf.nn.relu(c)
                 #c = conv('conv2', c, curr_growthRate, 1)
-                #bc_channel = (curr_num_block+1)//2*curr_growthRate
-                #bc_channel = curr_growthRate//2*curr_num_block
+                
                 bc_channel = 4*self.growthRate
 
                 # if block_idx == 1:
