@@ -248,8 +248,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
     # print("gpu: {}".format(args.gpu).split(','))
-    # print('learning rate: 0-[0.1]-{0}-[0.01]-{1}-[0.001]-{2}-[0.0002]-{3}'.format(args.drop_1, args.drop_2, args.drop_3, args.max_epoch))
-    # print('growthRate: {}'.format(args.k))
     # print('path: {}'.format(args.path))
     # print('layers in block1: {}'.format(args.block1))
     # print('layers in block2: {}'.format(args.block2))
