@@ -139,9 +139,6 @@ class Model(ModelDesc):
             curr_num_block = (in_channel-curr_input_channel)/curr_growthRate + 1
             next_growthRate = int(self.growthRate)
             next_input_channel = int(self.input_channel)
-            #out_channel = next_input_channel + (curr_num_block-1)*next_growthRate
-            #out_channel = next_input_channel
-            #out_channel = in_channel
             # print("next_input_channel: %d"  %(next_input_channel))
             # print("next_growthRate: %d"  %(next_growthRate))
             #print("curr_num_block: %d" %(curr_num_block))
