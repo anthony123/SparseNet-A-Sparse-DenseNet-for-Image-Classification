@@ -1,5 +1,5 @@
 # SparseNet-A-Sparse-DenseNet-for-Image-Classification
-毕业论文 “稀疏连接网络”有关的代码
+毕业论文 “稀疏连接网络：一种用于图像分类的稀疏化稠密网络”有关的代码
 
 共包括三种类型的网络：SparseNet， SparseNet-bc和SparseNet-abc
 
