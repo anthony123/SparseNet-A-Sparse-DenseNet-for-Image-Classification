@@ -1,4 +1,14 @@
 # SparseNet-A-Sparse-DenseNet-for-Image-Classification
-Implement of paper "SparseNet: A Sparse DenseNet for Image Classification"
+毕业论文 “稀疏连接网络”有关的代码
 
-based on Tensorflow and Tensorpack
+共包括三种类型的网络：SparseNet， SparseNet-bc和SparseNet-abc
+
+实验的数据集包括：CIFAR10， CIFAR100， SVHN和Imagenet
+
+每种类型的网络，共有四种不同的参数设置，详情见毕业论文 表3-1 和 表3-2
+
+比如：调用最小的SparseNet进行CIFAR10数据集分类，使用方法为：
+python cifar10-sparsenet.py --block1=8  --block2=12 --block=16 --path=14 --gpu=0,1,2,3
+
+代码基于的框架为TensorFlow，并使用了tensorpack的接口。
+
