@@ -10,5 +10,7 @@
 比如：调用最小的SparseNet进行CIFAR10数据集分类，使用方法为：
 python cifar10-sparsenet.py --block1=8  --block2=12 --block=16 --path=14 --gpu=0,1,2,3
 
+更多的实验内容见 第四章和第五章
+
 代码基于的框架为TensorFlow，并使用了tensorpack的接口。
 
