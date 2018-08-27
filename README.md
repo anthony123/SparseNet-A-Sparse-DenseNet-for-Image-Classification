@@ -14,3 +14,5 @@ python cifar10-sparsenet.py --block1=8  --block2=12 --block=16 --path=14 --gpu=0
 
 代码基于的框架为TensorFlow，并使用了tensorpack的接口。
 
+本论文的内容主要基于投的一篇期刊文章，其英文版本在[这里](https://pan.baidu.com/s/1B9DD9SrGtu30kJ1E82djGA)
+
